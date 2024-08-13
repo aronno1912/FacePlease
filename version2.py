@@ -116,7 +116,7 @@ while True:
                 secondsElapsed = (datetime.datetime.now() - datetimeObject).total_seconds()
                 ## wait for 5 seconds
                 print(secondsElapsed)
-                cv2.waitKey(10)
+                
 
                 if secondsElapsed > 30:
                     ref = db.reference(f'Students/{id}')
@@ -157,6 +157,7 @@ while True:
                                 cv2.FONT_HERSHEY_COMPLEX, 1, (50, 50, 50), 1)
 
                     imgBackground[175:175 + 216, 909:909 + 216] = imgStudent
+                    cv2.waitKey(500)
 
                 counter += 1
 

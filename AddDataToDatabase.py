@@ -15,7 +15,7 @@ data = {
         {
             "name": "Alia Bhatt",
             "major": "Film and Production",
-            "starting_year": 2017,
+            "starting_year": 2018,
             "total_attendance": 7,
             "standing": "G",
             "year": 4,
